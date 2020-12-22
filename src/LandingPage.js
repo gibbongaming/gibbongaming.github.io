@@ -7,16 +7,20 @@ class LandingPage extends React.Component {
         return(
             <div className="container">
                 <div>
-                <TextFieldBox fieldLabel = "Room Code"/>
+                    <TextFieldBox fieldLabel = "Room Code"/>
                 </div>
                 <div>
                     <TextFieldBox fieldLabel = "Name"/>
                 </div> 
+                <div className="playButton"> 
+                    <ButtonClick text = "Play"/>
+                </div>
                 <div>
-                    <ButtonClick text = "Go"/>
+                    <p>
+                        By clicking Play, you agree to our <a href = "/terms-conditions">Terms and Services</a>
+                    </p>
                 </div>
             </div>
-            
         )
     }
 }

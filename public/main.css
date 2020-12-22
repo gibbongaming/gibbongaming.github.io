@@ -1,0 +1,13 @@
+
+.playButton {
+    width: 27ch;
+    justify-content: center;
+    align-items: center;
+}
+
+.playButton button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    
+}
