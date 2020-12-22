@@ -7,7 +7,6 @@ import dummyText from "./DummyText";
 import aboutText from "./About";
 import { NavLink, Switch, Route } from 'react-router-dom';
 import { Link, animateScroll as scroll } from "react-scroll";
-
 import ScrollAnimation from 'react-animate-on-scroll';
 import {
     UserCard,
